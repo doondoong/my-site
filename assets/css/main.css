@@ -1982,6 +1982,32 @@ input, select, textarea {
 				background-color: #44f2cb;
 			}
 
+		input[type="submit"].normal,
+		input[type="reset"].normal,
+		input[type="button"].normal,
+		button.normal,
+		.button.normal {
+			background-color: #7e4b92;
+			box-shadow: none;
+			color: #000000 !important;
+		}
+
+			input[type="submit"].normal:hover,
+			input[type="reset"].normal:hover,
+			input[type="button"].normal:hover,
+			button.normal:hover,
+			.button.normal:hover {
+				background-color: #475a91;
+			}
+
+			input[type="submit"].normal:active,
+			input[type="reset"].normal:active,
+			input[type="button"].normal:active,
+			button.normal:active,
+			.button.normal:active {
+				background-color: #4495f2;
+			}
+
 		@media screen and (max-width: 736px) {
 
 			input[type="submit"],

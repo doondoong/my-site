@@ -36,6 +36,9 @@
 					<section id="first">
 						<header>
 							<h2>좋아하는 게임 소개</h2>
+							<ul class="actions">
+								<li><a href="#second" class="arrow scrolly"><span class="label">Next</span></a></li>
+							</ul>
 						</header>
 						<div class="content">
 							<p><strong>《배틀그라운드》</strong> (영어: PLAYERUNKNOWN'S BATTLEGROUNDS 플레이어언노운즈 배틀그라운즈)는 PUBG 주식회사(前 블루홀 지노게임즈)에서 개발하고 크래프톤에서 발행한 서바이벌 슈터 비디오 게임이다.[1] 현재 스팀을 통해 서비스 중이며, 대한민국 지역에서는 카카오 사가 퍼블리싱을 맡았다.[2] 2017년 3월 24일에 얼리 액세스(Early Access)로 출시되었다. 2017년 12월 21일 대한민국에 정식 출시되었다.</p>
@@ -44,12 +47,15 @@
 					</section>
 
 				<!-- Section -->
-					<section>
+					<section id="second">
 						<header>
 							<h2>내가사는 별내동</h2>
+							<ul class="actions">
+								<li><a href="#third" class="arrow scrolly"><span class="label">Next</span></a></li>
+							</ul>
 						</header>
 						<div class="content">
-							<p><strong>Etiam tristique libero</strong> eu nibh porttitor amet fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies condimentum.</p>
+							<p><strong></strong> eu nibh porttitor amet fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies condimentum.</p>
 							<ul class="feature-icons">
 								<li class="icon solid fa-laptop">Consequat tempus</li>
 								<li class="icon solid fa-bolt">Etiam adipiscing</li>
@@ -63,48 +69,59 @@
 					</section>
 
 				<!-- Section -->
-					<section>
+					<section id="third">
 						<header>
-							<h2>SHOE SHOP</h2>
+							<h2><a href="https://todaykimjs.github.io/#/">SHOE SHOP</a></h2>
+							<ul class="actions">
+								<li><a href="#fourth" class="arrow scrolly"><span class="label">Next</span></a></li>
+							</ul>
 						</header>
 						<div class="content">
-							<p><strong>Integer mollis egestas</strong> nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.</p>
+							<p><strong><a href="https://todaykimjs.github.io/#/">20% 초특가세일 신발가게</a></strong><br />
+								매진임박!! 20% 할인된 가격의 다양한 신발들을 만나보세요~</p>
 
 							<!-- Section -->
 								<section>
 									<header>
-										<h3>Erat aliquam</h3>
-										<p>Vehicula ultrices dolor amet ultricies et condimentum. Magna sed etiam consequat, et lorem adipiscing sed dolor sit amet, consectetur amet do eiusmod tempor incididunt  ipsum suspendisse ultrices gravida.</p>
+										<h3>쇼핑몰 만들기</h3>
+										<p>React를 활용하여 구성된 포트폴리오 페이지로 상품페이지,상세페이지,장바구니 모두 반복문을 사용하여 구성하였기 때문에 추가 DB가 있을 경우 연동이 가능합니다.</p>
+										<button class="button normal" type="button" onclick="window.open('https://todaykimjs.github.io/#/')">바로가기</button>
 									</header>
 									<div class="content">
 										<div class="gallery">
-											<a href="images/gallery/fulls/01.jpg" class="landscape"><img src="images/gallery/thumbs/01.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/02.jpg"><img src="images/gallery/thumbs/02.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/03.jpg"><img src="images/gallery/thumbs/03.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/04.jpg" class="landscape"><img src="images/gallery/thumbs/04.jpg" alt="" /></a>
+											<a href="./images/shoe1.PNG" class="landscape"><img src="./images/shoe1.PNG" alt="images" /></a>
+											<a href="./images/shoe3.PNG"><img src="./images/shoe3.PNG" alt="images" /></a>
+											<a href="./images/shoe4.PNG"><img src="./images/shoe4.PNG" alt="images" /></a>
+											<a href="./images/shoe5.PNG" class="landscape"><img src="./images/shoe5.PNG" alt="" /></a>
 										</div>
 									</div>
 								</section>
 
 							<!-- Section -->
-								<section>
+								<section id="fourth">
 									<header>
-										<h3>Nisl consequat</h3>
-										<p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam sed facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet mauris. Ut magna finibus nisi nec lacinia ipsum maximus.</p>
+										<h2>좋아하는 것</h2>
+										<ul class="actions">
+											<li><a href="#Fifth" class="arrow scrolly"><span class="label">Next</span></a></li>
+										</ul>
+										<p>저는 강아지를 좋아합니다. <br/> 특히 리트리버나 포메라니안을 <br/> 좋아합니다.</p>
 									</header>
 									<div class="content">
 										<div class="gallery">
-											<a href="images/gallery/fulls/05.jpg" class="landscape"><img src="images/gallery/thumbs/05.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/06.jpg"><img src="images/gallery/thumbs/06.jpg" alt="" /></a>
-											<a href="images/gallery/fulls/07.jpg"><img src="images/gallery/thumbs/07.jpg" alt="" /></a>
+											<a href="images/dog1.jpg" class="landscape"><img src="images/dog1.jpg" alt="image" /></a>
+											<a href="images/dog2.jpg"><img src="images/dog2.jpg" alt="image" /></a>
+											<a href="images/dog3.jpg"><img src="images/dog3.jpg" alt="image" /></a>
 										</div>
 									</div>
 								</section>
 
 							<!-- Section -->
-								<section>
+								<section id="Fifth">
 									<header>
 										<h3>Lorem gravida</h3>
+										<ul class="actions">
+											<li><a href="#last" class="arrow scrolly"><span class="label">Next</span></a></li>
+										</ul>
 										<p>Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aenean ornare velit lacus, ac varius sed enim lorem ullamcorper dolore.  ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis.</p>
 									</header>
 									<div class="content">
@@ -120,7 +137,7 @@
 					</section>
 
 				<!-- Section -->
-					<section>
+					<section id="last">
 						<header>
 							<h2>Duis sed adpiscing veroeros amet</h2>
 						</header>
