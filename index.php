@@ -55,16 +55,20 @@
 							</ul>
 						</header>
 						<div class="content">
-							<p><strong></strong> eu nibh porttitor amet fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies condimentum.</p>
-							<ul class="feature-icons">
-								<li class="icon solid fa-laptop">Consequat tempus</li>
-								<li class="icon solid fa-bolt">Etiam adipiscing</li>
-								<li class="icon solid fa-signal">Libero nullam</li>
-								<li class="icon solid fa-cog">Blandit condimentum</li>
+							<p><strong></strong> Google Map API를 통한 지도 구현</p>
+							<div id="map">
+
+							</div>
+							<br />
+							<!-- <ul class="feature-icons">
+								<li class="icon solid fa-laptop">pc방</li>
+								<li class="icon solid fa-bolt">주유소</li>
+								<li class="icon solid fa-signal">모바일shop</li>
+								<li class="icon solid fa-cog">정비소</li>
 								<li class="icon solid fa-map-marker-alt">Lorem ipsum dolor</li>
 								<li class="icon solid fa-code">Nibh amet venenatis</li>
-							</ul>
-							<p>Vehicula ultrices sed ultricies condimentum. Magna sed etiam consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et dolor libero, feugiat magna tempus, sed et lorem adipiscing.</p>
+							</ul> -->
+							<p>별내동(別內洞)은 대한민국 경기도 남양주시의 법정동이자 행정동이다. 2011년 12월 22일 남양주시 조례 1006호에 의해, 별내면의 덕송리, 화접리 그리고 광전리 일부를 통폐합하여 신설되었다. 신설 당시 인구는 2700여 명이었으나, 2015년 1월 중 인구 5만 명을 돌파하였으며, 2018년 2월말 기준 69,358명으로 남양주시 7개의 동 가운데 인구가 가장 많으며, 16개 읍·면·동 가운데 4번째로 인구가 많다. 법정동과 행정동이 일치하는 지역이며, 남양주시의 책임읍면동 실시로 2017년 상반기에 별내동, 별내면의 책임동이 되었다.</p>
 						</div>
 					</section>
 
@@ -80,6 +84,7 @@
 							<p><strong><a href="https://todaykimjs.github.io/#/">20% 초특가세일 신발가게</a></strong><br />
 								매진임박!! 20% 할인된 가격의 다양한 신발들을 만나보세요~</p>
 
+							
 							<!-- Section -->
 								<section>
 									<header>
@@ -118,11 +123,11 @@
 							<!-- Section -->
 								<section id="Fifth">
 									<header>
-										<h3>Lorem gravida</h3>
+										<h3>준비중</h3>
 										<ul class="actions">
 											<li><a href="#last" class="arrow scrolly"><span class="label">Next</span></a></li>
 										</ul>
-										<p>Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aenean ornare velit lacus, ac varius sed enim lorem ullamcorper dolore.  ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis.</p>
+										<p>가족소개창 구성 준비중</p>
 									</header>
 									<div class="content">
 										<div class="gallery">
@@ -459,12 +464,13 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
 								<li>
 									<h3>Elsewhere</h3>
 									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
 										<li><a href="https://www.instagram.com/pztdrd/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 										<li><a href="https://github.com/doondoong" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 										<li><a href="https://www.youtube.com/watch?v=ijVoAvPCgjs" class="icon brands fa-youtube"><span class="label">Youtube</span></a></li>
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>										
+										<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+
 										<!-- <li><a href="#" class="icon brands fa-codepen"><span class="label">Codepen</span></a></li> -->
 										
 									</ul>
@@ -486,5 +492,31 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+<script>
+	function initMap(){
+		const myLatLng = {
+			lat: 37.650923,
+			lng: 127.114292
+		}
+		const map = new google.maps.Map(
+			document.getElementById('map'),
+			{
+			center: myLatLng,
+			scrollwheel: false,
+			zoom: 14
+			}
+		);
+		
+		const marker = new google.maps.Marker({
+			position: myLatLng,
+			map: map,
+			title: 'myhome'
+		})
+		
+	}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCTQIlxBn5AfKGvsfJiormAE1esN3fcCkg&callback=initMap" async defer>
+
+</script>
 	</body>
 </html>
