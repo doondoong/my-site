@@ -22,31 +22,31 @@
 					<section class="intro">
 						<header>
 							<h1>개발하는 김대리</h1>
-							<p>A free responsive site template designed by <a href="https://twitter.com/ajlkn">@ajlkn</a> / <a href="https://html5up.net">HTML5 UP</a></p>
+							<p>배움에는 끝이 없다 <a href="https://todaykimjs.github.io/#/">@SHOP</a></p>
 							<ul class="actions">
 								<li><a href="#first" class="arrow scrolly"><span class="label">Next</span></a></li>
 							</ul>
 						</header>
 						<div class="content">
-							<span class="image fill" data-position="center"><img src="images/cheetahs.jpg" alt="" /></span>
+							<span class="image fill" data-position="center"><img src="images/coast.jpg" alt="" /></span>
 						</div>
 					</section>
 
 				<!-- Section -->
 					<section id="first">
 						<header>
-							<h2>Magna sed nullam nisl adipiscing</h2>
+							<h2>좋아하는 게임 소개</h2>
 						</header>
 						<div class="content">
-							<p><strong>Lorem ipsum dolor</strong> sit amet consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor amet fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies condimentum. Magna sed etiam consequat, et lorem adipiscing sed nulla. Volutpat nisl et tempus et dolor libero, feugiat magna tempus, sed et lorem adipiscing.</p>
-							<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
+							<p><strong>《배틀그라운드》</strong> (영어: PLAYERUNKNOWN'S BATTLEGROUNDS 플레이어언노운즈 배틀그라운즈)는 PUBG 주식회사(前 블루홀 지노게임즈)에서 개발하고 크래프톤에서 발행한 서바이벌 슈터 비디오 게임이다.[1] 현재 스팀을 통해 서비스 중이며, 대한민국 지역에서는 카카오 사가 퍼블리싱을 맡았다.[2] 2017년 3월 24일에 얼리 액세스(Early Access)로 출시되었다. 2017년 12월 21일 대한민국에 정식 출시되었다.</p>
+							<span class="image main"><img src="images/Battlegrounds_Cover_Art.png" alt="image" /></span>
 						</div>
 					</section>
 
 				<!-- Section -->
 					<section>
 						<header>
-							<h2>Feugiat consequat tempus ultrices</h2>
+							<h2>내가사는 별내동</h2>
 						</header>
 						<div class="content">
 							<p><strong>Etiam tristique libero</strong> eu nibh porttitor amet fermentum. Nullam venenatis erat id vehicula ultrices sed ultricies condimentum.</p>
@@ -65,7 +65,7 @@
 				<!-- Section -->
 					<section>
 						<header>
-							<h2>Ultrices erat magna sed condimentum</h2>
+							<h2>SHOE SHOP</h2>
 						</header>
 						<div class="content">
 							<p><strong>Integer mollis egestas</strong> nam maximus erat id euismod egestas. Pellentesque sapien ac quam. Lorem ipsum dolor sit nullam.</p>
@@ -429,26 +429,26 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
 							<ul class="items">
 								<li>
 									<h3>Email</h3>
-									<a href="#">information@untitled.ext</a>
+									<a href="#">pztdrd@naver.com</a>
 								</li>
 								<li>
 									<h3>Phone</h3>
-									<a href="#">(000) 000-0000</a>
+									<a href="#">(010) 3136-8536</a>
 								</li>
 								<li>
 									<h3>Address</h3>
-									<span>1234 Somewhere Road, Nashville, TN 00000</span>
+									<span>4-75, Byeollae 5-ro 5beon-gil, Namyangju-si, Gyeonggi-do, Republic of Korea</span>
 								</li>
 								<li>
 									<h3>Elsewhere</h3>
 									<ul class="icons">
 										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
 										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="https://www.instagram.com/pztdrd/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 										<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-										<li><a href="https://github.com/todaykim" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+										<li><a href="https://github.com/doondoong" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 										<li><a href="https://www.youtube.com/watch?v=ijVoAvPCgjs" class="icon brands fa-youtube"><span class="label">Youtube</span></a></li>
-										<li><a href="#" class="icon brands fa-codepen"><span class="label">Codepen</span></a></li>
+										<!-- <li><a href="#" class="icon brands fa-codepen"><span class="label">Codepen</span></a></li> -->
 										
 									</ul>
 								</li>
